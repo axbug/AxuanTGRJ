@@ -46,7 +46,7 @@ export default {
 		},
 		getwrite() {
 			uni.request({
-				url: 'http://blog.kaishuokj.com/api/tiangouriji/',
+				url: 'http://app.yxbug.cn/app/AxuanTGRJ/',
 				success: res => {
 					console.log(res.data);
 					this.date = '发表于' + ' ' + res.data.data.date + ' ' + res.data.data.weather;
