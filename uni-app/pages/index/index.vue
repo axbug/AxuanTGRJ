@@ -46,7 +46,7 @@ export default {
 		},
 		getwrite() {
 			uni.request({
-				url: 'http://app.yxbug.cn/app/AxuanTGRJ/',
+				url: 'http://app.yxbug.cn/app/AxuanTGRJ/api.php',
 				success: res => {
 					console.log(res.data);
 					this.date = '发表于' + ' ' + res.data.data.date + ' ' + res.data.data.weather;
